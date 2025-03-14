@@ -2,11 +2,11 @@
 
 ## 프로젝트 개요
 ### 목표
-서울시 지하철 승하차 데이터를 활용하여 데이터 전처리 및 Google Maps API 연동을 통해 각 역의 승하차 현황을 `folium`으로 시각화하는 데이터 분석 파이프라인을 구축합니다.
+서울시 지하철 승하차 데이터를 활용하여 데이터 전처리 및 Google Maps API 연동을 통해 각 역의 승하차 현황을 `folium`으로 시각화하는 데이터 분석 파이프라인을 구축
 
 ### 해결하고자 하는 문제
-- 서울시 지하철의 혼잡도를 효과적으로 분석하여 시민과 정책 입안자가 보다 나은 교통 정책을 수립할 수 있도록 지원합니다.
-- 특정 시간대 및 지역의 지하철 이용 현황을 시각적으로 직관적으로 분석합니다.
+- 서울시 지하철의 혼잡도를 효과적으로 분석하여 시민과 정책 입안자가 보다 나은 교통 정책을 수립할 수 있도록 지원
+- 특정 시간대 및 지역의 지하철 이용 현황을 시각적으로 직관적으로 분석
 
 ### 주요 기능
 - 서울 열린 데이터 광장에서 제공하는 데이터를 활용하여 승하차 현황을 분석
@@ -40,8 +40,8 @@ subway_data_analysis
 본 프로젝트는 Python 3.8 이상에서 실행할 수 있습니다. 먼저, 프로젝트 디렉토리를 클론합니다.
 
 ```bash
-git clone https://github.com/your-repo/subway_data_analysis.git
-cd subway_data_analysis
+git clone https://github.com/hzzz15/Seoul-Subway-DataAnalysis.git
+cd subway
 ```
 
 ### 2️⃣ 가상환경 생성 (선택사항)
@@ -53,13 +53,6 @@ venv\Scripts\activate    # Windows
 ```
 
 ### 3️⃣ 필수 패키지 설치
-
-```bash
-pip install -r requirements.txt
-```
-
-`requirements.txt`가 없는 경우, 주요 패키지를 수동으로 설치할 수도 있습니다.
-
 ```bash
 pip install pandas numpy matplotlib folium googlemaps
 ```
@@ -88,4 +81,4 @@ jupyter notebook
 - [Google Maps API](https://developers.google.com/maps)
 - [Folium 공식 문서](https://python-visualization.github.io/folium/)
 
----
+
